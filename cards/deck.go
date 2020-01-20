@@ -27,7 +27,7 @@ func (d deck) print() {
 	for index, card := range d {
 		fmt.Println(index, "\t"+card)
 	}
-	fmt.Println("------------")
+	fmt.Println("-----------")
 }
 
 // regular function
